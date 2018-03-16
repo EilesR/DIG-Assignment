@@ -61,7 +61,7 @@ CommentsContainer.propTypes = {
   actions : PropTypes.object,
   'actions.addComment':PropTypes.func,
   product_id:PropTypes.number,
-  comments:PropTypes.object,
+  comments:PropTypes.array,
 };
 
 export default connect(
